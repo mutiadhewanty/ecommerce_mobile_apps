@@ -5,12 +5,10 @@ class Welcome extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        backgroundColor: Color(0xFF8E6CEF),
-        body: Center(
-          child: Image.asset('assets/logo.png'),
-        ),
+    return Scaffold(
+      backgroundColor: Color(0xFF8E6CEF),
+      body: Center(
+        child: Image.asset('assets/logo.png'),
       ),
     );
   }

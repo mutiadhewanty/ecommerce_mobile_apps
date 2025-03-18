@@ -1,3 +1,5 @@
+import 'package:ecommerce_mobile_apps/page/forgot_password.dart';
+import 'package:ecommerce_mobile_apps/page/sign_up.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/gestures.dart';
 
@@ -18,7 +20,7 @@ class _SignInState extends State<SignIn> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Padding(
-        padding: EdgeInsets.symmetric(horizontal: 25),
+        padding: const EdgeInsets.symmetric(horizontal: 24),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -75,7 +77,10 @@ class _SignInState extends State<SignIn> {
                                 fontWeight: FontWeight.bold),
                             recognizer: TapGestureRecognizer()
                               ..onTap = () {
-                                // navigate to desired screen
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                        builder: (context) => SignUp()));
                               })
                       ])),
                   SizedBox(
@@ -141,7 +146,11 @@ class _SignInState extends State<SignIn> {
                                 fontWeight: FontWeight.bold),
                             recognizer: TapGestureRecognizer()
                               ..onTap = () {
-                                // navigate to desired screen
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                        builder: (context) =>
+                                            ForgotPassword()));
                               })
                       ])),
                 ],

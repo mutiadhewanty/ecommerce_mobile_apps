@@ -1,4 +1,7 @@
-import 'package:ecommerce_mobile_apps/page/sing_in.dart';
+import 'package:ecommerce_mobile_apps/page/forgot_password.dart';
+import 'package:ecommerce_mobile_apps/page/on_boarding.dart';
+import 'package:ecommerce_mobile_apps/page/sign_in.dart';
+import 'package:ecommerce_mobile_apps/page/sign_up.dart';
 import 'package:ecommerce_mobile_apps/page/welcome.dart';
 import 'package:flutter/material.dart';
 
@@ -19,7 +22,7 @@ class Myapp extends StatelessWidget {
                   fixedSize: Size.fromHeight(49),
                   foregroundColor: Colors.white,
                   backgroundColor: Color(0xFF8E6CEF)))),
-      home: SignIn(),
+      home: OnBoarding(),
     );
   }
 }
