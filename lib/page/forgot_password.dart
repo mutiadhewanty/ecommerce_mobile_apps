@@ -1,5 +1,4 @@
 import 'package:ecommerce_mobile_apps/page/sign_in.dart';
-import 'package:ecommerce_mobile_apps/page/sign_up.dart';
 import 'package:flutter/material.dart';
 
 import '../widgets/text.dart';

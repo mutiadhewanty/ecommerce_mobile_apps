@@ -87,7 +87,7 @@ class _OnBoardingState extends State<OnBoarding> {
                   // Add more decoration..
                 ),
                 hint: const Text(
-                  'Select Your Gender',
+                  'Age Range',
                   style: TextStyle(fontSize: 14),
                 ),
                 items: genderItems
@@ -103,7 +103,7 @@ class _OnBoardingState extends State<OnBoarding> {
                     .toList(),
                 validator: (value) {
                   if (value == null) {
-                    return 'Please select gender.';
+                    return 'Age Range';
                   }
                   return null;
                 },
