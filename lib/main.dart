@@ -1,5 +1,7 @@
+import 'package:ecommerce_mobile_apps/page/detail_orders.dart';
 import 'package:ecommerce_mobile_apps/page/home.dart';
 import 'package:ecommerce_mobile_apps/page/notifications.dart';
+import 'package:ecommerce_mobile_apps/page/orders.dart';
 import 'package:ecommerce_mobile_apps/page/shop_by_categories.dart';
 import 'package:ecommerce_mobile_apps/page/shop_by_categories2.dart';
 import 'package:flutter/material.dart';
@@ -21,7 +23,7 @@ class Myapp extends StatelessWidget {
                   fixedSize: Size.fromHeight(49),
                   foregroundColor: Colors.white,
                   backgroundColor: Color(0xFF8E6CEF)))),
-      home: Notifications(),
+      home: DetailOrders(),
     );
   }
 }
