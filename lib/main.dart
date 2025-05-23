@@ -2,6 +2,7 @@ import 'package:ecommerce_mobile_apps/page/cart_empty.dart';
 import 'package:ecommerce_mobile_apps/page/checkout.dart';
 import 'package:ecommerce_mobile_apps/page/order_placed.dart';
 import 'package:ecommerce_mobile_apps/page/product.dart';
+import 'package:ecommerce_mobile_apps/page/settings.dart';
 import 'package:flutter/material.dart';
 
 import 'page/cart.dart';
@@ -23,7 +24,7 @@ class Myapp extends StatelessWidget {
                   fixedSize: Size.fromHeight(49),
                   foregroundColor: Colors.white,
                   backgroundColor: Color(0xFF8E6CEF)))),
-      home: OrderPlaced(),
+      home: Settings(),
     );
   }
 }
